@@ -64,5 +64,7 @@ Space Layout is not meant as a replacement of Grid or Flexible Box Layout, but i
 
 To "break" the space into "quanta".
 
-    space-quantize: pre;
-    space-quantize: post;
+    :root {
+        space-quantize: pre;
+        space-quantize: post;
+    }
