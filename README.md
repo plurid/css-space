@@ -43,9 +43,16 @@ Space Layout is not meant as a replacement of Grid or Flexible Box Layout, but i
     // CSS
     #space {
         display: space;
-        space-template-columns: ???
-        space-template-rows: ???
-        space-template-???: ???
+        /*
+            vp - viewport units
+        */
+        space-template-columns: 1vp 0.3vp
+        // space-template-rows: ???
+
+        /*
+            to use 'sheaf' <-> 'sheaves' as the 3-dimensional equivalent to rows and columns?
+        */
+        space-template-sheaves: ???
     }
 
     // HTML
@@ -67,4 +74,13 @@ To "break" the space into "quanta".
     :root {
         space-quantize: pre;
         space-quantize: post;
+    }
+
+
+### Modifiiers
+
+    :root {
+        space-modifier-rotation: shift;
+        space-modifier-translation: alt | option;
+        space-modifier-scale: control | ctrl | command | cmd;
     }
