@@ -1,6 +1,6 @@
 # CSS Space Layout Module Proposal
 
-Proposal of the `CSS Space` layout.
+Proposal of the `CSS Space` Layout Module.
 
 
 
@@ -21,7 +21,7 @@ The `CSS Space` module defines a three-dimensional layout system, optimized for 
 
 This document is NOT part of the current CSS standards and is merely a proposal, as implemented in the [`plurid`](https://github.com/plurid/plurid) framework.
 
-The document is being written keeping an eye open on the formalization, practices, and discourse of [CSS Grid Layout Module](https://www.w3.org/TR/css-grid-1/) and [CSS Flexible Box Layout](https://www.w3.org/TR/css-flexbox-1/).
+The document is being written keeping an eye open on the formalization, practices, and discourse of [CSS Grid Layout Module](https://www.w3.org/TR/css-grid-1/) and [CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox-1/).
 
 
 
