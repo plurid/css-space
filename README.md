@@ -34,8 +34,9 @@ Space Layout is a layout model for CSS that grants the abilities to control the 
 Space Layout is not meant as a replacement of Grid or Flexible Box Layout, but is the logical extension into the third dimension of the layout interface. The 2-dimensional planes in fact should rely on Grid and Flexible Box Layout, as well as all the other standard CSS rules, to obtain the desired design.
 
 
-** exemplary figures **
-
+<p align="center">
+    <img src="https://raw.githubusercontent.com/plurid/css-space/master/about/images/css-space.png" height="500px">
+</p>
 
 
     // Example 1
