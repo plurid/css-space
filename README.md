@@ -21,7 +21,7 @@ The `CSS Space` module defines a three-dimensional layout system, optimized for 
 
 This document is NOT part of the current CSS standards and is merely a proposal, as implemented in the [`plurid`](https://github.com/plurid/plurid) framework.
 
-The document is being written keeping an eye open on the formalization, practices, and discourse of [CSS Grid Layout Module](https://www.w3.org/TR/css-grid-1/) and [CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox-1/).
+The document is being written keeping an eye open on the formalization, practices, and discourse of the [CSS Grid Layout Module](https://www.w3.org/TR/css-grid-1/) and the [CSS Flexible Box Layout Module](https://www.w3.org/TR/css-flexbox-1/).
 
 
 
@@ -70,12 +70,15 @@ Space Layout is not meant as a replacement of Grid or Flexible Box Layout, but i
 ### Quantization
 
 
-To "break" the space into "quanta".
+To "break" the space into `quanta`, `sheaves`?.
 
     :root {
         space-quantize: pre;
         space-quantize: post;
     }
+
+
+To speak of `clusters`, linked plurid-pages independent of other linked plurid-pages.
 
 
 ### Modifiiers
